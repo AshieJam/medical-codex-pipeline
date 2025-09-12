@@ -1,0 +1,9 @@
+# CSV paths for use
+## always use fowards slashes
+loinc = pd.read_csv("C:/Users/ashle/Downloads/Files_codexes/Loinc.csv")
+hcpcs = pd.read_csv("C:/Users/ashle/Downloads/Files_codexes/HCPC2025_OCT_ANWEB_v3.csv")
+icd10cm = pd.read_csv()
+icd10who =
+npi = 
+rxnorm =
+snowmed =
