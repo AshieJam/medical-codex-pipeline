@@ -39,3 +39,5 @@ npi_final = npi_draft.rename({
 npi_final
 
 ##Export to CSV
+file_output_path = "C:/Users/ashle/HHA-507-2025/medical-codex-pipeline/output/npi_final.csv"
+npi_final.write_csv(file_output_path)
