@@ -47,4 +47,31 @@ icdcodes = pd.DataFrame(codes)
 ## Save the DataFrame to a CSV file
 icdcodes.to_csv("C:/Users/ashle/HHA-507-2025/medical-codex-pipeline/output/icd10cm_order_2025.csv", index=False)
 
+icd_us = pd.read_csv("C:/Users/ashle/HHA-507-2025/medical-codex-pipeline/output/icd10cm_order_2025.csv")
 
+icd_us
+
+##Code
+
+print(icd_us.order_num)
+
+##Description
+
+print(icd_us.description)
+
+### Combination
+icd_draft = icd_us [['order_num','description']]
+icd_draft
+
+##Add Last Updated Date
+icd_draft['last_updated'] = '2025-09-12'
+
+##Rename colums to assigntment specfications
+icd_final = icd_draft.rename(columns={
+    'order_num': 'code',
+    'description': 'description'
+})
+
+##Export to CSV
+file_output_path = "C:/Users/ashle/HHA-507-2025/medical-codex-pipeline/output/icd10cm_final.csv"
+icd_final.to_csv ('C:/Users/ashle/HHA-507-2025/medical-codex-pipeline/output/icd10cm_final.csv', index = False)
