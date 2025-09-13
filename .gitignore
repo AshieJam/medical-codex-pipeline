@@ -12,9 +12,10 @@ Module1_MedicalCodexes/rxnorm/files/*.rrf
 Module1_MedicalCodexes/rxnorm/output/RXNATOMARCHIVE.csv
 Module1_MedicalCodexes/snowmed/sct2_Description_Full-en_US1000124_20250301.txt
 Module1_MedicalCodexes/snowmed/output/sct2_Description_Full.csv
-[icd10who.csv](http://_vscodecontentref_/3)
-[snomed_final.csv](http://_vscodecontentref_/4)
 
+##MY CODES
+medical-codex-pipeline\scripts\icd10who_processor.py
+medical-codex-pipeline\scripts\snomed_processor.py
 
 
 # Byte-compiled / optimized / DLL files
