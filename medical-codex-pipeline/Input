@@ -3,7 +3,7 @@
 loinc = pd.read_csv("C:/Users/ashle/Downloads/Files_codexes/Loinc.csv")
 hcpcs = pd.read_csv("C:/Users/ashle/Downloads/Files_codexes/HCPC2025_OCT_ANWEB_v3.csv")
 icd10cm = "C:/Users/ashle/Downloads/Files_codexes/icd10cm_codes_2026.txt"
-icd10who =
+icd10who = "C:/Users/ashle/Downloads/Files_codexes/icd102019syst_codes.txt"
 npi_csv = pl.read_csv("C:/Users/ashle/Downloads/Files_codexes/npidata_pfile_20050523-20250907.csv", n_rows=60)
 rxnorm =
-snowmed =
+snowmed = "C:/Users/ashle/Downloads/Files_codexes/sct2_Description_Full-en_US1000124_20250301.txt"
